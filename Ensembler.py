@@ -1,6 +1,6 @@
 import numpy as np
 
-def ensemble(x, weights, models): 
+def weighted_avg_ensemble(x, weights, models): 
     '''
     returns a weighted average of predictions made by the models\n
     x -> input image \n
