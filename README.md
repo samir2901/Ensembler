@@ -39,8 +39,8 @@
 </pre>
 <br>
 <br>
-[II] ensemble_weight_generator.py<br>
-- gen_weights(x_test, y_test, models) : Takes in arguments as x_test = input_data, y_test = actual labels (ground truth), models = a list of deep learning models for classification.<br>
+[II] ensemble_weight_generator.py<br><br>
+ - gen_weights(x_test, y_test, models) : Takes in arguments as x_test = input_data, y_test = actual labels (ground truth), models = a list of deep learning models for classification.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns a list of weights to be assigned to the predictions made by each of the models.
 
 <i>Example:</i>
