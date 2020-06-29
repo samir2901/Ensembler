@@ -12,7 +12,7 @@ def weighted_avg_ensemble(x, weights, models):
         outputs.append(list(model.predict(x)[0]))                
     
     outputs = np.array(outputs)
-    avg = np.average(a=outputs,axis=1,weights=weights)
+    avg = np.average(a=outputs,axis=0,weights=weights)
     return avg
 
 def equal(pred, label):
